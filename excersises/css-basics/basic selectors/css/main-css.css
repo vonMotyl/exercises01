@@ -1,0 +1,62 @@
+/*selektor znacznika control slash dla komcia*/
+
+p {
+    color: orange
+}
+
+/*selektor po id odwolanie hashtag*/
+
+#paragraph {
+    color: blue
+}
+
+/*REMEMBER wpierw ID potem clasa a na koncu znacznik*/
+
+/*łączenie selektorów*/
+
+a,
+span,
+div {
+    color: green
+}
+
+/*slektor bezpośredniego elementu potomnego*/
+
+li > a {
+    color: red
+}
+
+/*selektor elementów potomnych*/
+
+div a {
+    color: chartreuse
+}
+
+/*div, #id
+div #id
+div#id
+there's a difference'*/
+
+/*Selektor bliskiego rodzeństwa*/
+
+h2 + h3 + h3 {
+    color: hotpink
+}
+
+/*selektor rodzeństwa*/
+
+h4 ~ p {
+    color: aqua
+}
+
+/*selektor wykluczający HURR DURR*/
+
+ul > li:not(.last) {
+    color: yellow
+}
+
+/*Selektor kolejnego elementu potomnego*/
+
+ul > ol:nth-child(2n+1) {
+    color: darkgoldenrod
+}
