@@ -1,0 +1,68 @@
+html {
+    font-size: 20px;
+}
+
+#container {
+    font-size: 30px;
+}
+/*jak dziabniesz CTRL+E wewnątrz nawiasów to otworzy ci się konsola z kolorami*/
+#container > div {
+    background-color: rgba(0, 255, 255, 0.6);
+    margin-bottom: 15px;
+}
+
+#pixels{
+/*    font-size: 400px;*/
+}
+
+#em {
+    
+}
+
+#ex {
+    
+}
+
+#rem {
+    
+}
+
+#percent {
+    
+}
+
+#percent {
+    
+}
+
+#vw {
+    
+}
+
+#vh {
+    
+}
+
+vmin {
+    
+}
+
+#vmax {
+    
+}
+
+#inch {
+    
+}
+
+#cm {
+    
+}
+
+#mm {
+    
+}
+
+#pt {
+    
+}
