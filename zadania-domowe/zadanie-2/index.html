@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" name="referrer" content="origin">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="http://formspree.io/m.maciejewicz@cinema-city.pl" method="POST">
+
+        <label for="name">Imię:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <br>
+
+        <label for="surname">Nazwisko:</label><br>
+        <input type="text" name="surname" id="surname"><br>
+        <br>
+
+        <label for="email">Email:</label><br>
+        <input type="text" name="email" id="email"><br>
+        <br>
+        
+        <label for="phonenumber">Telefon:</label><br>
+        <input type="text" name="phonenumber" id="phonenumber"><br><br>
+
+        <label for="city">Miasto:</label><br>
+        <select name="city" id="city">
+              <option value="Gdansk">Grańsk</option>
+              <option value="krakow">Kraków</option>
+              <option value="warsaw">Warszawa</option>
+        </select><br><br>
+
+        <label for="gender">Płeć:</label><br>
+        <input type="radio" name="gender" id="gender"value="woman">Kobieta <br>
+        <input type="radio" name="gender" id="gender" value="man">Mężczyzna <br><br>
+
+        <label for="toc">Zgoda na przetwarzanie danych osobowych:</label><br>
+        <input type="checkbox" name="toc" id="toc">Zgadzam się. <br><br>
+
+        <label for="message">Wiadomość do sprzedawcy:</label><br>
+        <textarea maxlenght="1000" name="message" id="message" cols="35" rows="10"></textarea><br>
+
+        <input type="submit" value="Wyślij"><br>
+    </form>
+
+</body>
+
+</html>
