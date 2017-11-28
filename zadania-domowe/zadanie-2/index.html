@@ -2,7 +2,9 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" name="referrer" content="origin">
+
+ <!--    name i referrer dodane są wg rozwiązania stack'a na mój mały problem z dostarczaniem tego formularza na skrzynkę pocztową, sam formularz działa dobrze-->
+<meta charset="UTF-8" name="referrer" content="origin">
     <title>Document</title>
 </head>
 
@@ -33,7 +35,10 @@
 
         <label for="gender">Płeć:</label><br>
         <input type="radio" name="gender" id="gender" value="woman">Kobieta <br>
+<!--        v3c validator też miał problem z tym, że są w dwóch liniach użyte walidatory gender-->
         <input type="radio" name="gender" id="gender" value="man">Mężczyzna <br><br>
+        
+        
 
         <label for="toc">Zgoda na przetwarzanie danych osobowych:</label><br>
         <input type="checkbox" name="toc" id="toc">Zgadzam się. <br><br>
