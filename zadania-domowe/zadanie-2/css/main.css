@@ -4,6 +4,13 @@ body {
     color: white;    
 }
 
+#center {
+    margin: auto;
+    width: 50%;
+    background-color: #213b50;
+    padding: 10px;
+}
+
 form {
     
     padding: 15px;

@@ -1,0 +1,49 @@
+
+/*
+.box1, .box2, .box3 {
+    cursor: crosshair;
+}
+*/
+
+#margin {
+    margin: auto;
+    width: 0%;
+}
+
+.box1 {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    transition: all 200ms ease;
+}
+
+.box2 {
+    background-color: blue;
+    height: 100px;
+    width: 100px;   
+    transition: all 200ms ease;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    transition: all 200ms ease;
+    
+}
+
+.box1:hover {
+    background-color: black;
+    width: 200px;
+}
+
+.box2:hover {
+    background-color: grey;
+    height: 200px;
+}
+
+.box3:hover {
+    background-color:lightgrey;
+    height: 200px;
+    width: 200px;
+}

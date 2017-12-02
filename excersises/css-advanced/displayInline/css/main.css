@@ -1,0 +1,27 @@
+#blueblock {
+    display: block;
+    background-color: aqua;
+}
+
+#peachblock {
+    display: block;
+    background-color: peachpuff;
+}
+
+#inlineyellow {
+    display: inline;
+    background-color: yellow;
+}
+
+#inlinepurple {
+    display: inline;
+    background-color: purple;
+}
+
+#inlineblock>ul>li{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background-color: cadetblue;
+    border: 1px dotted red;
+}
