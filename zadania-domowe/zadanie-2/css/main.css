@@ -1,50 +1,44 @@
 body {
     font-family: sans-serif;
+    font-size: 16px;
+    color: white;    
 }
 
 form {
+    
     padding: 15px;
     border: 0;
-    width: 350px;
+    width: 400px;
     height: 690px;
     background-color: #213b50;
-    color: white;
 }
 
-input {
+input, textarea, select {
     background-color: #2b4a64;
     border: 0;
+    color: #ffffff
 }
 
-input:focus {
+select:focus, textarea:focus, input:focus {
     border: 0;
     background-color: #4e708c;
     color: #ffffff;
 }
 
-textarea {
-    border: 0;
-    background-color: #2b4a64;
-    color: #ffffff;
-}
-
+/*
 textarea:focus {
     border: 0;
     background-color: #4e708c;
     color: #ffffff;
 }
 
-select {
-    border: 0;
-    background-color: #2b4a64;
-    color: #ffffff;
-}
 
 select:focus {
     border: 0;
     background-color: #4e708c;
     color: #ffffff;
 }
+*/
 
 input[type=submit] {
     background-color: lawngreen;
