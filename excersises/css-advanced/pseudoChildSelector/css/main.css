@@ -1,0 +1,28 @@
+#p1>a:link {
+    color: green;
+    text-decoration: line-through;
+}
+#p2>a {
+    color: yellow;
+}
+#p2:target::after {
+    content: "przed" ;
+    color red;
+}
+
+#p2:target:before {
+    content: test;
+    color: pink;
+}
+
+.table>div:nth-child(even){
+    background-color: antiquewhite;
+}
+.table>div:nth-child(odd) {
+    background-color: pink;
+}
+
+
+.table>div:nth-child(5n+4) {
+    background-color: olive;
+}

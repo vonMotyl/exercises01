@@ -1,0 +1,21 @@
+#p1::before {
+    content: " test1";
+    color: teal;
+}
+
+#p2::after {
+    content: "test2";
+    color: blue
+}
+
+#p3::first-letter {
+    color: brown;
+}
+
+#p4::first-line {
+    color: yellow;
+}
+
+::selection {
+    background: bisque;
+}
