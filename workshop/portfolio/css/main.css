@@ -36,11 +36,31 @@ nav {
     background-color: rgba(245, 245, 245, 0.62);
 }
 
+.header-img {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.header-img>img{
+    
+    width: 100%
+}
+
+.header-text {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
 .img-back {
     background-size: cover;
     width: 100%;
 
 }
+*/
 
 /*
 #about-content {
@@ -73,13 +93,6 @@ nav {
 }
 
 
-.main-header {
-    color: white;
-    position: absolute;
-    width: 100%;
-    top: 30%;
-    text-align: center;
-}
 
 #skills {
     text-align: center;
