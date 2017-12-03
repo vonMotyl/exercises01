@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    font-family: "Lucida Console", sans-serif;
+    font-weight: 300;
+}
+
+span {
+    color: #00b100;
+}
+
+nav {
+    z-index: 1;
+/*    display: inline-block;*/
+    position: fixed;
+/*    padding: 12px;*/
+    width: 100%;
+    text-align: right;
+    background-color: white;
+}
+
+
+.menu-item {
+    display: inline-block;
+    list-style-type: none;
+    list-style: none;
+    padding: 14px 16px;
+    
+}
+
+.menu-item >a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-item:hover {
+    background-color: rgba(245, 245, 245, 0.62);
+}
+
+.img-back {
+    background-size: cover;
+    width: 100%;
+
+}
+
+#about-content {
+    padding-left: 40%;
+}
+
+.about-photo, .about-me {
+    width: 50%;
+    display: inline-block;
+}
+
+.about-photo {
+    text-align:center;
+}
+
+
+.face {
+    height: 35%;
+    width: 35%;
+    border: 5px solid white;
+}
+
+#headers {
+    text-align: center;
+}
+
+
+.main-header {
+    color: white;
+    position: absolute;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+}
+
+skills {
+    text-align: center;
+}
+
+/*
+.ulist {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+*/
+
+/*
+
+li a {
+    
+
+}
+
+
+
+
+
+
+.img-back {
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+*/
