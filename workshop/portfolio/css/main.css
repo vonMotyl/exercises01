@@ -42,24 +42,30 @@ nav {
 
 }
 
+/*
 #about-content {
     padding-left: 40%;
 }
+*/
 
 .about-photo, .about-me {
-    width: 50%;
+    width: 45%;
     display: inline-block;
+    vertical-align: top;
 }
 
 .about-photo {
-    text-align:center;
+    text-align:right;
 }
 
 
 .face {
-    height: 35%;
-    width: 35%;
+    width: 40%;
     border: 5px solid white;
+}
+
+.about-me {
+    margin-left: 25px,;
 }
 
 #headers {
@@ -75,8 +81,76 @@ nav {
     text-align: center;
 }
 
-skills {
+#skills {
     text-align: center;
+}
+
+.vicons {
+    display: inline-block;
+    text-align: center;
+    padding: 5%;
+}
+
+#icon-block {
+    width: 100%;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+#image-container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    border: 0px;
+    margin: auto;   
+}
+
+}
+
+#image-container>img {
+    width: 30%;
+}
+
+#contact {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color: #213b50;
+}
+
+.address {
+    display: inline-block;
+    width: 45%;
+}
+
+.form {
+    display: inline-block;
+    width: 45%;
+    background-color: 213b50;
+    color: white;
+}
+
+input, textarea, select {
+    background-color: #2b4a64;
+    border: 0;
+    color: #ffffff;
+    width: 100%;
+}
+
+select:focus, textarea:focus, input:focus {
+    border: 0;
+    background-color: #4e708c;
+    color: #ffffff;
+}
+
+input[type=submit] {
+    background-color: green;
+    width: 10%;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*
