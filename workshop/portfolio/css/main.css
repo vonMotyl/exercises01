@@ -1,3 +1,4 @@
+
 body {
     margin: 0;
     font-family: "Lucida Console", sans-serif;
@@ -7,7 +8,7 @@ body {
 span {
     color: #00b100;
 }
-
+/*Navbar Styles*/
 nav {
     z-index: 1;
 /*    display: inline-block;*/
@@ -18,16 +19,14 @@ nav {
     background-color: white;
 }
 
-
 .menu-item {
     display: inline-block;
     list-style-type: none;
     list-style: none;
-    padding: 14px 16px;
-    
+    padding: 14px 16px;    
 }
 
-.menu-item >a{
+.menu-item >a {
     text-decoration: none;
     color: black;
 }
@@ -36,13 +35,15 @@ nav {
     background-color: rgba(245, 245, 245, 0.62);
 }
 
+/*Header Styles*/
 .header-img {
     position: relative;
+    background-size: cover;
     text-align: center;
     color: white;
 }
-.header-img>img{
-    
+
+.header-img>img{    
     width: 100%
 }
 
@@ -53,21 +54,7 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-/*
-.img-back {
-    background-size: cover;
-    width: 100%;
-
-}
-*/
-
-/*
-#about-content {
-    padding-left: 40%;
-}
-*/
-
+/*About me Styles*/
 .about-photo, .about-me {
     width: 45%;
     display: inline-block;
@@ -86,18 +73,19 @@ nav {
 
 .about-me {
     margin-left: 25px,;
+    margin-bottom: 1%
 }
 
 #headers {
     text-align: center;
 }
 
-
-
+/*Skills Styles*/
 #skills {
     text-align: center;
 }
 
+/*Skills icon block Styles*/
 .vicons {
     display: inline-block;
     text-align: center;
@@ -107,7 +95,6 @@ nav {
 #icon-block {
     width: 100%;
     margin: auto;
-    width: 75%;
     text-align: center;
 }
 
@@ -115,16 +102,15 @@ nav {
     display: inline-block;
     text-align: center;
     width: 100%;
-    border: 0px;
-    margin: auto;   
-}
-
+    border: 0px; 
+    margin-bottom: 5%;
 }
 
 #image-container>img {
-    width: 30%;
+    width: 31%;
 }
 
+/*Contact Styles*/
 #contact {
     display: inline-block;
     text-align: center;
@@ -139,19 +125,28 @@ nav {
 
 .form {
     display: inline-block;
-    width: 45%;
+    width: 50%;
     background-color: 213b50;
     color: white;
+    text-align: right
 }
 
-input, textarea, select {
+input, textarea{
     background-color: #2b4a64;
     border: 0;
     color: #ffffff;
     width: 100%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 0;
+    margin-right: 0;    
 }
 
-select:focus, textarea:focus, input:focus {
+input:focus, textarea:focus {
     border: 0;
     background-color: #4e708c;
     color: #ffffff;
@@ -159,11 +154,8 @@ select:focus, textarea:focus, input:focus {
 
 input[type=submit] {
     background-color: green;
-    width: 10%;
-    padding-bottom: 5px;
-    padding-top: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 15%;
+    margin: 0%;
 }
 
 /*

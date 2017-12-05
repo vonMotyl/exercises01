@@ -1,3 +1,5 @@
+/*Navbar Styles*/
+
 body {
     margin: 0;
     font-family: "Lucida Console", sans-serif;
@@ -18,13 +20,12 @@ nav {
     background-color: white;
 }
 
-
+/*Navbar Styles*/
 .menu-item {
     display: inline-block;
     list-style-type: none;
     list-style: none;
     padding: 14px 16px;
-    
 }
 
 .menu-item >a{
@@ -36,7 +37,7 @@ nav {
     background-color: rgba(245, 245, 245, 0.62);
 }
 
-
+/*Header Styles*/
 .header-image {
     position: relative;
     width: 100%;
