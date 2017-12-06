@@ -89,13 +89,17 @@ nav {
 .vicons {
     display: inline-block;
     text-align: center;
-    padding: 5%;
+    padding: 2%;
+}
+.vicons>img {
+    width: 70%;
 }
 
 #icon-block {
     width: 100%;
     margin: auto;
     text-align: center;
+    margin-bottom: 10%
 }
 
 #image-container {
@@ -120,15 +124,20 @@ nav {
 
 .address {
     display: inline-block;
+    text-align: left;
     width: 45%;
+    color: white;
+    vertical-align:top;
 }
-
+/*Email Form*/
 .form {
     display: inline-block;
     width: 50%;
     background-color: 213b50;
     color: white;
-    text-align: right
+    text-align: right;
+    padding-bottom: 2%;
+    margin-top: 4%;
 }
 
 input, textarea{
@@ -158,30 +167,21 @@ input[type=submit] {
     margin: 0%;
 }
 
+input::placeholder, textarea::placeholder {
+    padding-left: 2%;
+}
+
 /*
+Drafts
+
 .ulist {
     margin: 0;
     padding: 0;
     overflow: hidden;
-}
-*/
-
-/*
-
-li a {
-    
-
-}
-
-
-
-
-
 
 .img-back {
     position: relative;
     display: block;
     width: 100%;
 }
-
 */
