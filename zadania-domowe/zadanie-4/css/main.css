@@ -1,0 +1,58 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Verdana', sans-serif;
+	background-color: #ffffff;
+}
+
+div {
+    position: relative;
+/*    position: inline-block;*/
+
+}
+
+.image1 {
+    
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+#header{
+    width: 100%;
+
+}
+
+
+
+
+img {
+    position: relative;
+    width: 100%;
+    
+}
+
+
+#main-header-text {
+    width: 100%;
+    position: absolute;
+    display: block;
+/*
+    color: white;
+    vertical-align: middle;
+    top: 30%;
+    left: 5%;
+    text-align: left;
+*/
+
+/*    transform: translate(-50%, -50%);*/
+}
+
