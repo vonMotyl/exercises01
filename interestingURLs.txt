@@ -1,0 +1,9 @@
+https://www.jakpsatweb.cz/css/css-vertical-center-solution.html
+
+https://colintoh.com/blog/display-table-anti-hero
+
+http://alistapart.com/article/holygrail
+
+https://www.w3schools.com/cssref/pr_background-image.asp
+
+https://stackoverflow.com/questions/29229523/how-and-why-to-use-display-table-cell-css
