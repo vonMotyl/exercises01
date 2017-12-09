@@ -20,7 +20,7 @@ form {
     background-color: #213b50;
 }
 
-input, textarea, select {
+input, {
     background-color: #2b4a64;
     border: 0;
     color: #ffffff

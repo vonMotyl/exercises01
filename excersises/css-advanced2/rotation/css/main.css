@@ -1,0 +1,36 @@
+/*na przykładzie, najpierw określasz wielkość obrazka i jaki ma margines, transition jakieś a transofm origin jest punktem od którego dany element bedzie się obracał*/
+
+
+/*Obrót - value przed nawiasem nie może mieć spacji bo nie zadziała*/
+.rotate img {
+    transform: rotate(20deg);
+}
+
+/*Przesunięcie - (bardzo ważne przecinki w nawiasach po komendach)*/
+.translate img {
+    transform: translate(200px, 100px);
+}
+
+/*Skalowanko - z hoverowankiem*/
+.scale img:hover {
+    transform: scale(1.5);
+}
+
+/*Animacje powiększająca/pomniejszająca*/
+.animation img {
+    animation-name: resize;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease;
+}
+
+/*mięcho animacji (info co i jak będzie się działo)
+Jak chcemy coś powtarzać to przecinkiem oddzielamy*/
+@keyframes resize {
+    0%, 100% {
+        height: 300px;
+    }
+    50% {
+        height: 50px;
+    }
+}

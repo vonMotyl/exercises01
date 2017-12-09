@@ -1,0 +1,5 @@
+Background size:
+
+contain - do kontenera pakuje zdjęcie i jak zdjęcie jest mniejsze to zostaną puste nmiejsca
+
+cover - wypełni cały kontener (nie skalując) eg. jak będzie większe niż kontener to zdjątko zostanie przycięte.

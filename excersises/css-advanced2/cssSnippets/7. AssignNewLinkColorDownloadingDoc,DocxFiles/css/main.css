@@ -1,0 +1,9 @@
+/*PAMIĘTAJ BEZ SPACJI PRZED a BO CI JEBNĘ*/
+a[href$=".docx"] {
+    color: green;
+}
+
+
+a[href$=".doc"] {
+    color: lime;
+}

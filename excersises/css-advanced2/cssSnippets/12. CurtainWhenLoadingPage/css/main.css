@@ -1,0 +1,54 @@
+#container {
+    height: 100vh;
+    width: 100%;
+}
+
+
+
+.top {
+    background-color: #00B202;
+    height: 50vh;
+    width: 100%;
+    animation-name: going-down;
+    position: absolute;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+@keyframes going-down {
+    0%
+        {
+        height: 0vh;
+    }
+    100% {
+        height: 50vh;
+    }
+}
+
+
+
+.bottom {
+    bottom: 0;
+    background-color: #B20056;
+    height: 50vh;
+    width: 100%;
+    animation-name: going-up;
+    position: absolute;
+    animation-duration: 2s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+
+
+@keyframes going-up {
+    0%
+        {
+        height: 0vh;
+        bottom: 0;
+    }
+    100% {
+        height: 50%;
+    }
+}
+

@@ -1,0 +1,29 @@
+html, body {
+    height: 100%;
+}
+
+
+.parallax1 {
+    background-image: url(../img/SaturnIR_CassiniKakitsev_1024.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.text1 {
+    height: 400px;
+    width: 100%;
+    background-color: #232b39;
+    font-size: 36px;
+}
+
+.parallax2 {
+    background-image: url(../img/SaturnAbove_Cassini_2012.jpg);
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
