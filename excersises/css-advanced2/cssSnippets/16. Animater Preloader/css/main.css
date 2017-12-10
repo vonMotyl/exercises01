@@ -1,7 +1,9 @@
 
 #container {
-    width: 300px;
-    height: 300px;
+    width: 800px;
+    height: 800px;
+    position: relative;
+    background-color: dimgrey;
 }
 
 
@@ -11,16 +13,98 @@
     display: inline-block;
     width: 100%;
     height: 100%;
-    background-color:aquamarine;
+    background-color:gainsboro;
     
 }
 
 #small-square {
     position: absolute;
-    width: 50%;
-    height: 50%;
-    top: 25%;
-    left: 25%;
-    background-color: magenta;
+    width: 10%;
+    height: 10%;
+    top: 40%;
+    left: 40%;
+    background-color: dimgrey;
+    animation: myOrbit 4s linear infinite;
+    animation-direction: reverse;
 
 }
+
+#small-square2 {
+    position: absolute;
+    width: 10%;
+    height: 10%;
+    top: 40%;
+    left: 40%;
+    background-color: dimgrey;
+    animation: myOrbit2 4s linear infinite;
+    animation-direction: reverse;
+
+}
+
+
+.saturn {
+    position: absolute;
+    left: 315px;
+    top: 143px;
+    animation: myOrbit 2s linear infinite; 
+}
+
+@keyframes myOrbit {
+    0% {
+        width: 50px;
+        height: 50px;
+        transform: rotate(0deg) translateX(150px) rotate(360deg);   
+    }
+    
+    25%{
+        width: 100px;
+        height: 100px;
+    }
+    
+    50%{ 
+        width: 50px;
+        height: 50px;
+    }
+    
+    75%{
+        width: 100px;
+        height: 100px;
+    }
+
+    100%   {
+        width: 50px;
+        height: 50px;     
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+
+@keyframes myOrbit2 {
+    0% {
+        width: 50px;
+        height: 50px;
+        transform: rotate(0deg) translateX(-150px) rotate(360deg);   
+    }
+    
+    25%{
+        width: 100px;
+        height: 100px;
+    }
+    
+    50%{ 
+        width: 50px;
+        height: 50px;
+    }
+    
+    75%{
+        width: 100px;
+        height: 100px;
+    }
+
+    100%   {
+        width: 50px;
+        height: 50px;     
+        transform: rotate(360deg) translateX(-150px) rotate(-360deg);
+    }
+}
+
+

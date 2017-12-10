@@ -1,0 +1,24 @@
+.circle-button {
+    text-decoration: none;
+    background-color: darkviolet;
+    border: 1px solid darkviolet;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+}
+
+a {
+    text-align: center;
+    color: aliceblue;
+    font-size: 200px;
+/*    wielkość linii*/
+    line-height: 200px;
+    transition: all 0.4s;
+}
+
+
+.circle-button:hover {
+    background-color:white;
+    color: darkviolet;
+}

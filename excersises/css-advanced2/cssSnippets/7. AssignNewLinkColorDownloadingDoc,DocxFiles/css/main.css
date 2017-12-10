@@ -7,3 +7,12 @@ a[href$=".docx"] {
 a[href$=".doc"] {
     color: lime;
 }
+
+
+/*
+~= to słowo oddzielone spacjami
+
+*= zawiera gdziekolwiek w tekście*/
+
+
+a[href ~]

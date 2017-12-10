@@ -1,0 +1,10 @@
+ul {
+    list-style-type: none;
+}
+
+li::before {
+    content: '\f09a';
+    font-family: FontAwesome;
+    margin-right: 5px;
+}
+

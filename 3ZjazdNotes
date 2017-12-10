@@ -3,3 +3,10 @@ Background size:
 contain - do kontenera pakuje zdjęcie i jak zdjęcie jest mniejsze to zostaną puste nmiejsca
 
 cover - wypełni cały kontener (nie skalując) eg. jak będzie większe niż kontener to zdjątko zostanie przycięte.
+
+
+
+border-box: paddingi nie zmniejszą kontentu i nie pozwalają elementom uciekać na boki (nie tworzy )
+
+
+content-box paddingi nie zmniejsza a zwiększa obrazek

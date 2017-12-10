@@ -1,0 +1,25 @@
+q[lang*='en'], blockquote[lang*='en']{
+    quotes: '*' '*';
+}
+
+q[lang*='de'], blockquote[lang*='de']{
+    quotes: 'XDXD ' ' XDXD';
+}
+
+/*a ot niżej jest głównie dla blockquote by się pojawiłi łapki*/
+q[lang*='en']:before, blockquote[lang*='en']:before{
+    content: open-quote;
+}
+
+q[lang*='en']:after, blockquote[lang*='en']:after{
+    content: close-quote;
+}
+
+q[lang*='de']:before, blockquote[lang*='de']:before{
+    content: open-quote;
+}
+
+q[lang*='de']:after, blockquote[lang*='de']:after{
+    content: close-quote;
+}
+

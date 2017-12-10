@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: aqua;
+}
+
+.curtain {
+    position: absolute;
+    width: 100%;
+    height: 50vh;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+}
+
+.top {
+    background-color: orange;
+    animation-name: top-down;
+    bottom: 50vh;
+}
+
+.bottom {
+    background-color: red;
+    animation-name: bottom-up;
+    top: 50vh;
+}
+
+@keyframes top-down {
+    0% {
+        bottom 100vh;
+    }
+    100% {
+        bottom: 50vh;
+    }
+}
+
+@keyframes bottom-up {
+    0% {
+        top: 100vh;
+    }
+    100% {
+        top: 50vh;
+    }
+}

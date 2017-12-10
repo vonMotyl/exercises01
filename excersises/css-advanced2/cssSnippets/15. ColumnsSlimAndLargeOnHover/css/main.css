@@ -1,26 +1,63 @@
-
-#container {
-    width: 300px;
-    height: 300px;
-}
-
-
-#square {
+* {
+    margin: 0;
+    padding: 0;
+    line-height: 0;
     box-sizing: border-box;
-    position: relative;
-    display: inline-block;
+    outline-width: 0;
+}
+
+
+/*FLEX MASTERRACE - Wszystko tym gównem bedę robił, good stuff*/
+#container {
     width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    text-align: center;
+    flex-flow: row nowrap;
+    justify-content: center;
+
+}
+
+.leftmost, .left, .right, .rightmost {
+    float: left;
+    display: inline-block;
+    width: 25%;
     height: 100%;
-    background-color:aquamarine;
     
+    transition: all 100ms ease;
 }
 
-#small-square {
-    position: absolute;
-    width: 50%;
-    height: 50%;
-    top: 25%;
-    left: 25%;
-    background-color: magenta;
-
+.leftmost {
+    background-color: #ff8a36;
 }
+
+.left {
+    background-color: #3676ff;
+}
+
+.right {
+    background-color: #e136ff;
+}
+
+.rightmost {
+    background-color: #ffee36;
+}
+
+#container .leftmost:hover, .left:hover, .right:hover, .rightmost:hover {
+    width: 40%;
+}
+/*
+
+#container .left:hover {
+    width: 40%;
+}
+
+#container .right:hover {
+    width: 40%;
+}
+
+#container .right:hover {
+    width: 40%;
+}
+*/
