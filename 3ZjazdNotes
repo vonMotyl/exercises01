@@ -10,3 +10,20 @@ border-box: paddingi nie zmniejszą kontentu i nie pozwalają elementom uciekać
 
 
 content-box paddingi nie zmniejsza a zwiększa obrazek
+
+
+<adise> w tym tagu można zamykać np Parallaxy które są relewantne do kontentu w tekście. which is nice
+
+eg.
+
+<aside gówno do parallaxa></aside>
+<p>kontent mowiący o tym o jest na parallaxie</p>
+
+
+https://css-tricks.com/animating-the-content-property/
+
+
+https://www.w3schools.com/css/css3_animations.asp
+
+
+https://css-tricks.com/css-pie-timer/
