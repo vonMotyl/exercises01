@@ -1,0 +1,32 @@
+html {
+    height: 100%;
+}
+
+body {
+    background: #900000;
+    text-align: center;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linear-wipe {
+    font-size: 400%;
+    font-weight: bolder;
+    text-align: center;
+    background: linear-gradient(to left, #900000 20%, #fff 40%, #fff 60%, #900000 80%);
+    
+/*  rozmiar atkualnego tła które będzie przesuwane animacją. Musi być przynajmniej 2 razy większe by zobaczyć cały gradient */
+    background-size: 200% auto;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: torch 4s linear infinite;
+}
+
+/*faktycznie animacja przesuwa tylko pozycje tła by animować przesuwanie się gradientu. WAŻNE! Pozycja gradientu musi być równa rozmiarowi tła by nie było przycinania przesuwania się gradientu.*/
+@keyframes torch {
+    to {
+        background-position: -200% center;
+    }
+}
