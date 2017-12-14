@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+.plzno {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.plzno:after {
+        animation: change 3s ease infinite normal;
+        display: block;
+        content: "5";
+        font-size: 50px;
+    }
+
+
+@keyframes change {
+    0% {
+        content: "5";
+    }
+    20% {
+        content: "4";
+    }
+    40% {
+        content: "3";
+    }
+    60% {
+        content: "2";
+    }
+    80% {
+        content: "1";
+    }
+    100% {
+        content: "JS M8!";
+    }
+}
