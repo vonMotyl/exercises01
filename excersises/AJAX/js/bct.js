@@ -10,17 +10,17 @@ $(function () {
 });
 
 $('#button').click(function () {
-pobierzBTC(this.currency, this.value);
-console.log(pobierzBTC);
+    pobierzBTC(this.currency, this.value);
+    console.log(pobierzBTC);
 });
 
 function pobierzBTC(currency, value) {
     $.ajax({
-        url: 'https://blockchain.info/tobtc?currency=' + this.currency + '&value='+ this.value,
-        success: function(response) {
+        url: 'https://blockchain.info/tobtc?currency=' + this.currency + '&value=' + this.value,
+        success: function (response) {
             $('#btc').text(response);
         },
-        error: function(response) {
+        error: function (response) {
             console.log(response);
         }
     })

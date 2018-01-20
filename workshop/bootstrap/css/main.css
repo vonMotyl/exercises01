@@ -1,0 +1,54 @@
+body {
+    height: 2000px;
+}
+
+
+.header-img {
+    height: 400px;
+}
+
+
+
+
+
+/*
+.container-example {
+    height: 300px;
+    background-color: green
+}
+
+
+.container-fluid-example {
+    height: 300px;
+    background-color: red;
+}
+
+.element-1 {
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.element-2 {
+    height: 100px;
+    background-color: aqua;
+}
+
+.element-3 {
+    height: 100px;
+    background-color: blueviolet;
+}
+
+.item {
+    height: 300px;
+    background-color: #ccc;
+    border-bottom: 1px solid black;
+}
+
+.item:nth-child(2n) {
+    background-color: grey
+}
+
+.botton-color {
+    background-color: black;
+}
+*/
