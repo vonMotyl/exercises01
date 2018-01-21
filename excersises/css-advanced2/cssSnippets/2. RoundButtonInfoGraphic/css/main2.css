@@ -8,7 +8,7 @@
     display: inline-block;
 }
 
-a {
+.link {
     text-align: center;
     color: aliceblue;
     font-size: 200px;

@@ -2,9 +2,244 @@ body {
     height: 2000px;
 }
 
+#header {
+    position: relative;
+}
 
-.header-img {
-    height: 400px;
+#header-img {
+    width: 100%;
+    max-height: 50em;
+    overflow: hidden;
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.header-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.header-button {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.services {
+    text-align: center;
+    position: relative;
+    height: 24em;
+}
+
+.services-centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*
+.circle-button {
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: aqua;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+}
+*/
+
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 80px;
+    /*    border: 5px solid aqua;*/
+    background-color: skyblue;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    font-size: 50px
+}
+
+i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+ 
+}
+
+.circle:hover {
+    background-color: white;
+    color: skyblue;
+    transition: all 0.4s;
+    transform: rotate(360deg);
+}
+
+i:hover {
+    color: skyblue;
+    transition: all 0.4s;
+}
+
+.color1 {
+    height: 300px;
+}
+
+.color2 {
+    height: 300px;
+}
+
+.color3 {
+    height: 300px;
+}
+
+#portfolio {
+    height: 55em;
+    background-color: #f7f7f7;
+}
+
+.portfolio-height {
+    background-position: center;
+    height: 300px;
+
+}
+
+.portfolio-img-background {
+    background-color: white;
+}
+
+.portfolio1 {
+    background-image: url(../img/portfolio/box_of_cookies.jpg);
+    max-width: 100%;
+    transition: all .5s;
+}
+
+.portfolio2 {
+    background-image: url(../img/portfolio/chaotic_paint.jpg);
+    max-width: 100%;
+    transition: all .5s;
+}
+
+.portfolio3 {
+    background-image: url(../img/portfolio/chestnut_on_bracket.jpg);
+    max-width: 100%;
+    transition: all .5s;
+}
+
+.portfolio4 {
+    background-image: url(../img/portfolio/child_with_blue_paint.jpg);
+    max-width: 100%;
+    transition: all .5s;
+}
+
+.portfolio5 {
+    background-image: url(../img/portfolio/house_with_blue_doors.jpg);
+    max-width: 100%;
+    transition: all .5s;
+}
+
+.portfolio6 {
+    background-image: url(../img/portfolio/typing_on_laptop.jpg);
+    max-width: 100%;
+    transition: all .5s;
+}
+
+.enlarge-box {
+    position: relative;
+    border: 0px solid #333;
+    overflow: hidden;
+}
+
+.enlarge-anim:hover {
+    transform: scale(1.1);
+    
+}
+
+.mask {
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    opacity: 0.0;
+    transition: all 1s;
+}
+
+.mask:hover {
+    opacity: 0.5;
+}
+
+
+#our-team {
+    height: 40em;
+    background-color: white;
+}
+
+.our-team {
+    background-position: center;
+    height: 350px;
+}
+
+.our-team-height {
+    width: 300px;
+    height: 300px;
+}
+
+/*
+.team-img-background {
+    height: 300px;
+}
+*/
+
+.our-team1 {
+    background-image: url(../img/team/man-1.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.our-team2 {
+    background-image: url(../img/team/man-2.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.our-team3 {
+    background-image: url(../img/team/woman-1.jpg);
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+
+#footer {
+    position: relative;
+}
+
+#footer-img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    height: 30em;
+}
+
+.footer-elements {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.toc {
+    height: 4em;
 }
 
 
