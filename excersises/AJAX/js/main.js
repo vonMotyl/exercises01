@@ -1,9 +1,3 @@
-//$(function () {
-//            $.getJSON('http://echo.jsontest.com/userId/108/userName/Akademia108/userURL / akademia108.pl ', function (data) {
-//                // wyswietl w konsoli
-//                console.log(data.userName);
-//            });
-//    });
 
 $(function () {
     $('#przycisk').click(function () {
