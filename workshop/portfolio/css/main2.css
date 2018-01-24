@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 2000px;
+}
+
+
+
+#header {
+    position: relative;
+}
+
+#header-img {
+    width: 100%;
+    max-height: 60em;
+    overflow: hidden;
+}
+
+.header-container {
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+span {
+    color: olivedrab;
+}
+
+
+
+.skills-height {
+ height: 300px;
+}
+
+
+.face {
+    background-image: url(../img/jan-nowak.jpg);
+    height: 100%;
+    width:100%;
+}
+
+
+.html5 {
+    background-image: url(../icons/html5.png);
+}
+
+.css3 {
+    background-image: url(../icons/css3.png);
+}
+
+.js {
+    background-image: url(../icons/js.png);
+}
+
+.jQuery {
+    background-image: url(../icons/jquery.png);
+}
+
+
+.fancyPics {
+    height: 20em;
+}
+
+
+.fp-properties {
+    background-repeat: no-repeat;
+    height: 20em;
+    background-size: cover;
+}
+
+.fancyPic1 {
+ background-image: url(../img/portfolio1.jpg);
+
+}
+
+.fancyPic2 {
+ background-image: url(../img/portfolio2.jpg); 
+
+}
+
+.fancyPic3 {
+ background-image: url(../img/portfolio3.jpg);  
+
+}
